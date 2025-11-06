@@ -12,6 +12,8 @@ import {
   Star,
 } from "lucide-react";
 
+import biquini1 from "../public/Biquíni Margarida Tropical.jpeg";
+
 export default function BeachStore() {
   const [cart, setCart] = useState([]);
   const [showCart, setShowCart] = useState(false);
@@ -33,7 +35,7 @@ export default function BeachStore() {
       name: "Biquíni Margarida Tropical",
       price: 149.9,
       category: "bikini",
-      image: "../../public/Biquíni Margarida Tropical.jpeg",
+      image: biquini1,
       rating: 4.8,
       description: "Biquíni estampado com proteção UV",
     },
@@ -42,7 +44,7 @@ export default function BeachStore() {
       name: "Biquíni Sol de Amalfi",
       price: 199.9,
       category: "swimsuit",
-      image: "../../public/Biquíni Sol de Amalfi.jpeg",
+      image: biquini1,
       rating: 4.9,
       description: "Biquíni de lycra com detalhes em dourado",
     },
@@ -51,7 +53,7 @@ export default function BeachStore() {
       name: "Maiô Listras Riviera",
       price: 159.9,
       category: "mens",
-      image: "../../public/Maiô Listras Riviera.jpeg",
+      image: biquini1,
       rating: 4.7,
       description: "Maiô inteiro com recortes modernos",
     },
@@ -60,7 +62,7 @@ export default function BeachStore() {
       name: "Maiô Vichy Sunset",
       price: 189.9,
       category: "coverup",
-      image: "../../public/Maiô Vichy Sunset.jpeg",
+      image: biquini1,
       rating: 4.6,
       description: "Saída de praia em tecido linho",
     },
@@ -69,7 +71,7 @@ export default function BeachStore() {
       name: "Sunga Black Reef",
       price: 89.9,
       category: "bikini",
-      image: "../../public/Sunga Black Reef.jpeg",
+      image: biquini1,
       rating: 4.8,
       description: "Sunga esportiva de secagem rápida",
     },
@@ -78,7 +80,7 @@ export default function BeachStore() {
       name: "Sunga Fogo Cítrico",
       price: 119.9,
       category: "mens",
-      image: "../../public/Sunga Fogo Cítrico.jpeg",
+      image: biquini1,
       rating: 4.5,
       description: "Sunga com ar vibrante e moderna",
     },
@@ -87,7 +89,7 @@ export default function BeachStore() {
       name: "Shorts Praia Noturna",
       price: 79.9,
       category: "swimsuit",
-      image: "../../public/Shorts Praia Noturna.jpeg",
+      image: biquini1,
       rating: 4.7,
       description: "Bermuda masculina perfeita para um dia de praia",
     },
@@ -96,7 +98,7 @@ export default function BeachStore() {
       name: "Shorts Verde Oceano",
       price: 139.9,
       category: "coverup",
-      image: "../../public/Shorts Verde Oceano.jpeg",
+      image: biquini1,
       rating: 4.9,
       description: "Bermuda masculina com vibe tropical",
     },
