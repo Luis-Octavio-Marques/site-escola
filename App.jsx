@@ -33,7 +33,7 @@ export default function BeachStore() {
       name: "Biquíni Margarida Tropical",
       price: 149.9,
       category: "bikini",
-      image: "../../public/Biquíni Margarida Tropical.jpeg",
+      image: "../../public/BiquíniMargaridaTropical.jpeg",
       rating: 4.8,
       description: "Biquíni estampado com proteção UV",
     },
