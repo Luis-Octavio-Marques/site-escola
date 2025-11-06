@@ -12,7 +12,19 @@ import {
   Star,
 } from "lucide-react";
 
+import marca from "../public/marca.png";
+
 import biquini1 from "../public/Biquíni Margarida Tropical.jpeg";
+import biquini2 from "../public/Biquíni Sol de Amalfi.jpeg";
+import maio1 from "../public/Maiô Listras Riviera.jpeg";
+import maio2 from "../public/Maiô Vichy Sunset.jpeg";
+import sunga1 from "../public/Sunga Black Reef.jpeg";
+import sunga2 from "../public/Sunga Fogo Cítrico.jpeg";
+import short1 from "../public/Shorts Praia Noturna.jpeg";
+import short2 from "../public/Shorts Verde Oceano.jpeg";
+
+import textoaolado1 from "../public/textoaolado1.png";
+import textoaolado2 from "../public/textoaolado2.jpeg";
 
 export default function BeachStore() {
   const [cart, setCart] = useState([]);
@@ -44,7 +56,7 @@ export default function BeachStore() {
       name: "Biquíni Sol de Amalfi",
       price: 199.9,
       category: "swimsuit",
-      image: biquini1,
+      image: biquini2,
       rating: 4.9,
       description: "Biquíni de lycra com detalhes em dourado",
     },
@@ -53,7 +65,7 @@ export default function BeachStore() {
       name: "Maiô Listras Riviera",
       price: 159.9,
       category: "mens",
-      image: biquini1,
+      image: maio1,
       rating: 4.7,
       description: "Maiô inteiro com recortes modernos",
     },
@@ -62,7 +74,7 @@ export default function BeachStore() {
       name: "Maiô Vichy Sunset",
       price: 189.9,
       category: "coverup",
-      image: biquini1,
+      image: maio2,
       rating: 4.6,
       description: "Saída de praia em tecido linho",
     },
@@ -71,7 +83,7 @@ export default function BeachStore() {
       name: "Sunga Black Reef",
       price: 89.9,
       category: "bikini",
-      image: biquini1,
+      image: sunga1,
       rating: 4.8,
       description: "Sunga esportiva de secagem rápida",
     },
@@ -80,7 +92,7 @@ export default function BeachStore() {
       name: "Sunga Fogo Cítrico",
       price: 119.9,
       category: "mens",
-      image: biquini1,
+      image: sunga2,
       rating: 4.5,
       description: "Sunga com ar vibrante e moderna",
     },
@@ -89,7 +101,7 @@ export default function BeachStore() {
       name: "Shorts Praia Noturna",
       price: 79.9,
       category: "swimsuit",
-      image: biquini1,
+      image: short1,
       rating: 4.7,
       description: "Bermuda masculina perfeita para um dia de praia",
     },
@@ -98,7 +110,7 @@ export default function BeachStore() {
       name: "Shorts Verde Oceano",
       price: 139.9,
       category: "coverup",
-      image: biquini1,
+      image: short2,
       rating: 4.9,
       description: "Bermuda masculina com vibe tropical",
     },
@@ -161,7 +173,7 @@ export default function BeachStore() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-8">
-              <img src="../../public/marca.png" className="w-50"/>
+              <img src={marca} className="w-50"/>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -427,7 +439,7 @@ export default function BeachStore() {
           {/* Imagem */}
           <div className="md:w-1/2">
             <img
-              src="../../public/textoaolado1.png"
+              src={textoaolado1}
               alt="Nova coleção de verão"
               className="rounded-3xl shadow-2xl w-full object-cover"
             />
@@ -461,7 +473,7 @@ export default function BeachStore() {
           {/* Imagem da Promoção */}
           <div className="md:w-1/2">
             <img
-              src="/textoaolado2.jpeg"
+              src={textoaolado2}
               alt="Promoções de verão"
               className="rounded-3xl shadow-2xl w-50% object-cover"
             />
